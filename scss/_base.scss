@@ -1,0 +1,21 @@
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+   color: $general-color;
+   line-height: 20px; 
+}
+.main {
+   background-color: $main-color;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   overflow: hidden;
+   width: 768px;
+   margin: 0px auto;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+}
+.footer {
+   margin-top: auto;
+}

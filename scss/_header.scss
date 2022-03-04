@@ -1,0 +1,42 @@
+.header__inner {
+   position: relative;
+   min-height: 83px; 
+   display: flex;
+   align-items: center;
+   padding-left: 24px;
+   padding-right: 24px; 
+}
+.header__inner-box {
+   display: flex;
+   align-items: center; 
+}
+.header__title {
+   @extend %subtitle;
+   color: $general-color;
+}
+.header__help-link {
+   flex-shrink: 0;
+   margin-left: 24px;
+}
+.help-link__icon {
+   margin-top: 2px;
+}
+.help-link__text {
+   margin-left: 4px;
+}
+.header__help-link {
+   display: flex;
+      &:hover {
+         color: $button-color;
+      }
+}
+.header__close-button {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   padding-top: 4px;
+   padding-right: 4px;
+   &:hover {
+      color: $button-color;
+   }
+}
